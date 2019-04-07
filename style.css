@@ -1,11 +1,9 @@
 header a {
+  background-color: inherit;
   color: #AAFFAA;
 }
-main a {
-  color: green;
-  font-size: 36px;
-}
 footer a {
+  background-color: inherit;
   color: green;
   font-size: inherit;
 }
@@ -28,9 +26,10 @@ header {
   text-align: center;
   background-image: url(https://lumiere-a.akamaihd.net/v1/images/Hoth_d074d307.jpeg?region=0%2C0%2C1200%2C675);
   background-size: 100% 100%;
-  padding: 25px 0;
+  padding: 75px 0;
 }
 header h1 {
+  background-color: inherit;
   color: green;
 }
 nav {
@@ -40,22 +39,29 @@ nav a {
   padding: 0 25px 0;
 }
 .navlinks {
+  background-color: inherit;
   color: yellow;
-}
-table {
-  border-collapse: collapse;
 }
 th, td {
   width: 75px;
   height: 25px;
 }
 table, th, td {
-  border: 2px solid blue;
-  background-color: green;
+  border: 3px solid white;
+  background-color: #30FF30;
   color: black;
+  font-size: 36px;
+  font-family: sans-serif;
   text-align: center;
 }
+table {
+  width: 60%;
+  height: 200px;
+  margin: 0 auto 15%;
+  border-collapse: collapse;
+}
 main {
+  background-color: inherit;
   color: green;
   font-family: sans-serif;
   font-size: 24px;
@@ -65,10 +71,12 @@ ul, ol {
 
 }
 footer {
+  background-color: inherit;
   color: green;
   font-family: sans-serif;
 }
 .info {
+  background-color: inherit;
   font-family: sans-serif;
   font-size: 175%;
   display: block;
@@ -80,6 +88,7 @@ footer {
 
 }
 .chartitles {
+  background-color: inherit;
   text-align: center;
   display: block;
   padding-bottom: 50px;
@@ -90,11 +99,12 @@ footer {
   width: 50%;
 }
 .pagetitle {
+  background-color: inherit;
   text-align: center;
   margin-top: 100px;
   color: #60FF60;
-  font-family: "Comic Sans MS";
-  font-size: 48px;
+  font-family: "Comic Sans MS", monospace;
+  font-size: 64px;
 }
 li {
   display: inline-block;
@@ -106,6 +116,7 @@ li {
   float: right;
 }
 .altinfo {
+  background-color: inherit;
   font-family: sans-serif;
   font-size: 175%;
   display: block;
@@ -115,15 +126,20 @@ li {
   float: left;
 }
 .clickhere {
+  background-color: inherit;
   text-align: center;
   color: #60FF60;
-  font-family: "Comic Sans MS";
+  font-family: "Comic Sans MS", monospace;
   margin-bottom: 200px;
 }
 #linklist li {
   display: block;
   text-align: center;
-  margin-bottom: 7%;
-  margin-right: 3%;
+  margin-right: 2.5%;
+  margin-bottom: 5%;
+}
+#linklist a {
+  background-color: inherit;
   color: #60FF60;
+  text-align: center;
 }
